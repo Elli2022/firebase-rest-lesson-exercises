@@ -56,6 +56,10 @@ The project root is a simple landing page and is the page published through GitH
 
 Each subfolder contains a preserved exercise or demo from the same lesson.
 
+## Firebase
+
+This repo is linked to the Firebase project **`firebase-rest-lesson-exercises`** (Realtime Database in `us-central1`). Setup, paths, and seed commands are documented in [FIREBASE.md](./FIREBASE.md).
+
 ## GitHub Pages
 
 The repository is published at:

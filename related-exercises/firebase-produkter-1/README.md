@@ -17,8 +17,8 @@ An early exercise that has now been upgraded into a more portfolio-ready Firebas
 
 ## Firebase setup needed for live data
 
-1. Add the real Firebase web app config to `firebase-config.js`.
-2. Enable Anonymous sign-in in Firebase Authentication.
+1. Web app config is in `firebase-config.js` (project `firebase-rest-lesson-exercises`).
+2. In the [Firebase console](https://console.firebase.google.com/project/firebase-rest-lesson-exercises/authentication/providers), open **Authentication**, click **Get started** if needed, then enable **Anonymous** sign-in.
 3. Store the products under `/products` or update the configured path.
 4. Use rules like:
 

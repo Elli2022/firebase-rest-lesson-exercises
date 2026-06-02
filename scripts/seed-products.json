@@ -1,0 +1,14 @@
+{
+  "product-1": {
+    "Namn": "Hoodie",
+    "Beskrivning": "Warm lesson hoodie for Firebase demos.",
+    "Pris": "499 kr",
+    "url": "https://images.unsplash.com/photo-1556821840-3a63f95609a7?w=400"
+  },
+  "product-2": {
+    "Namn": "Mug",
+    "Beskrivning": "REST lesson mug with anonymous-auth protected reads.",
+    "Pris": "149 kr",
+    "url": "https://images.unsplash.com/photo-1514228742587-6b1558fcca0e?w=400"
+  }
+}

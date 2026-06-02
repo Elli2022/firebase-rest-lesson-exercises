@@ -1,0 +1,11 @@
+{
+  "name": "firebase-rest-lesson-exercises",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "firebase:rules": "firebase deploy --only database",
+    "seed": "node scripts/seed-database.mjs",
+    "seed:products": "firebase database:set /products scripts/seed-products.json --project firebase-rest-lesson-exercises --force",
+    "seed:all": "npm run firebase:rules && npm run seed:products && npm run seed"
+  }
+}

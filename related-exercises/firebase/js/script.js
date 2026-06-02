@@ -1,4 +1,4 @@
-const baseUrl = `https://test2023-02-08-default-rtdb.europe-west1.firebasedatabase.app/`;
+const baseUrl = `https://firebase-rest-lesson-exercises-default-rtdb.firebaseio.com/`;
 
 async function getAll() {
 
@@ -51,7 +51,7 @@ postCat(newCat)
 
 async function put(obj){
 
-    const url = 'https://test2023-02-08-default-rtdb.europe-west1.firebasedatabase.app/posts/cats/5/-NNkcarn9egxeoWuT9Pk.json'
+    const url = baseUrl + 'posts/cats/5/-NNkcarn9egxeoWuT9Pk.json'
 
     const init = {
         method: 'PUT',

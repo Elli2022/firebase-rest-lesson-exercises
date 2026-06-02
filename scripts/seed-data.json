@@ -1,0 +1,39 @@
+{
+  "products": {
+    "product-1": {
+      "Namn": "Hoodie",
+      "Beskrivning": "Warm lesson hoodie for Firebase demos.",
+      "Pris": "499 kr",
+      "url": "https://images.unsplash.com/photo-1556821840-3a63f95609a7?w=400"
+    },
+    "product-2": {
+      "Namn": "Mug",
+      "Beskrivning": "REST lesson mug with anonymous-auth protected reads.",
+      "Pris": "149 kr",
+      "url": "https://images.unsplash.com/photo-1514228742587-6b1558fcca0e?w=400"
+    }
+  },
+  "lessonProducts": {
+    "product-1": {
+      "name": "Hoodie",
+      "description": "REST exercise product",
+      "price": "499",
+      "url": "https://images.unsplash.com/photo-1556821840-3a63f95609a7?w=400"
+    },
+    "product-2": {
+      "name": "Mug",
+      "description": "Open REST path for Products 2",
+      "price": "149",
+      "url": "https://images.unsplash.com/photo-1514228742587-6b1558fcca0e?w=400"
+    }
+  },
+  "posts": {
+    "cats": {
+      "0": { "id": 1, "title": "kitten" },
+      "1": { "id": 2, "title": "tiger" },
+      "5": {
+        "-NNkcarn9egxeoWuT9Pk": { "id": 5, "title": "panther" }
+      }
+    }
+  }
+}

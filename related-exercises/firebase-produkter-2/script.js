@@ -4,7 +4,7 @@
 // Use POST to add the product to the Firebase database.
 // Request the products again and render them in the browser.
 
-const baseUrl = `https://produkt-2-default-rtdb.europe-west1.firebasedatabase.app/products`;
+const baseUrl = `https://firebase-rest-lesson-exercises-default-rtdb.firebaseio.com/lesson/products`;
 
 async function getProducts() {
 
